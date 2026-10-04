@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Baner górny */
+.banner {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner img {
+    max-height: 120px;
+}
+
+/* Nagłówek główny */
+.main-header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Kontener główny */
+.container {
+    display: flex;
+    min-height: 400px;
+}
+
+/* Menu boczne */
+.left-menu {
+    width: 25%;
+    background-color: #262626;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-menu li {
+    margin-bottom: 10px;
+}
+
+.left-menu a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+.left-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Sekcja główna treści */
+.content-section {
+    width: 75%;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Galeria / elementy */
+.gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tatoo-item {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tatoo-item img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Stopka */
+.footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
